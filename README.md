@@ -1,35 +1,35 @@
-🏠 PropIntel – AI-Powered Real Estate Analytics, Price Prediction & Recommendation
+🏠 PropIntel – AI-Powered Gurugram Real Estate Analytics, Price Prediction & Recommendation
 
 PropIntel is an AI-powered real estate platform that combines market analytics, price prediction, and personalized property recommendations into a single, user-friendly application.
-It collects real estate listings via web scraping from 99acres.com, processes and analyzes the data, and delivers insights and predictions through an interactive Streamlit dashboard.
+It collects Gurugram real estate listings via web scraping from 99acres.com, processes and analyzes the data, and delivers insights and predictions through an interactive Streamlit dashboard.
 
 🚀 Features
 
 📊 Analytics Dashboard
 
-Spatial visualizations of property distribution and market trends
+Spatial visualizations of property distribution and market trends in Gurugram
 
 Word clouds showcasing location highlights and amenities
 
 Scatter, box, and pie charts to explore pricing patterns
 
-Comparative analysis across locations, property types, and facilities
+Comparative analysis across localities, property types, and facilities in Gurugram
 
 💰 Price Predictor
 
-Regression-based ML model trained on cleaned property datasets
+Regression-based ML model trained on cleaned Gurugram property datasets
 
 Predicts prices based on location, area (sq. ft.), bedrooms/bathrooms, property type, and facilities
 
 🏡 Property Recommender
 
-Content-based recommendation system with location and radius filters
+Content-based recommendation system with location and radius filters within Gurugram
 
 Price range matching for budget-oriented searches
 
 Facility-based scoring (e.g., swimming pool, parking, security)
 
-Personalized property suggestions for buyers and investors
+Personalized property suggestions for buyers and investors in Gurugram
 
 🛠 Tech Stack
 
@@ -41,59 +41,87 @@ Jupyter Notebook, Git, GitHub
 
 📂 Project Structure
 
+bash
+Copy
+Edit
 PropIntel/
-│── data/ Raw & cleaned datasets
-│── notebooks/ Jupyter notebooks for analysis
-│── models/ Trained ML models
-│── Pages/ Frontend pages and visualizations
-│── scripts/ Web scraping and preprocessing scripts
-│── app.py Main Streamlit application
-│── requirements.txt Dependencies
+│── data/              # Raw & cleaned Gurugram datasets
+│── notebooks/         # Jupyter notebooks for analysis
+│── models/            # Trained ML models
+│── Pages/             # Frontend pages and visualizations
+│── scripts/           # Web scraping and preprocessing scripts
+│── app.py             # Main Streamlit application
+│── requirements.txt   # Dependencies
 └── README.md
-
 ⚙️ Installation & Setup
 
-1 Clone the repository
+Clone the repository
+
+bash
+Copy
+Edit
 git clone https://github.com/Sourav07-D/PropIntel.git
-cd "PropIntel – AI-Powered Real Estate Analytics & Price Prediction"
+cd "PropIntel – AI-Powered Gurugram Real Estate Analytics & Price Prediction"
+Create a virtual environment
 
-2 Create a virtual environment
+bash
+Copy
+Edit
 python -m venv venv
-source venv/bin/activate (Windows: venv\Scripts\activate)
+source venv/bin/activate   # Windows: venv\Scripts\activate
+Install dependencies
 
-3 Install dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Run the Streamlit app
 
-4 Run the Streamlit app
+bash
+Copy
+Edit
 streamlit run app.py
+💡 Example Insights (Gurugram)
 
-💡 Example Insights
+Analytics: Identify localities in Gurugram with the highest price growth over the past year
 
-Analytics: Identify cities with the highest price growth over the past year
+Prediction: Estimate the price of a 3BHK flat in DLF Phase 3, Gurugram with parking and swimming pool
 
-Prediction: Estimate the price of a 3BHK flat in Kolkata with parking and swimming pool
-
-Recommendation: Discover properties under ₹80 lakhs within 5 km of Salt Lake, Kolkata
+Recommendation: Discover properties under ₹80 lakhs within 5 km of Cyber Hub, Gurugram
 
 📈 Model Details
 
 Algorithms Used: Linear Regression, Random Forest, XGBoost (best performing model selected)
+
 Evaluation Metrics: R² Score, MAE, RMSE
-Recommendation System: Content-based filtering using property features and location proximity
+
+Recommendation System: Content-based filtering using property features and location proximity within Gurugram
 
 🤝 Contributing
 
-1 Fork this repository
-2 Create your feature branch
+Fork this repository
+
+Create your feature branch
+
+bash
+Copy
+Edit
 git checkout -b feature/AmazingFeature
-3 Commit changes
+Commit changes
+
+bash
+Copy
+Edit
 git commit -m "Add amazing feature"
-4 Push to branch
+Push to branch
+
+bash
+Copy
+Edit
 git push origin feature/AmazingFeature
-5 Open a Pull Request
+Open a Pull Request
 
 📬 Contact
-
 Author: Sourav Das
 LinkedIn: linkedin.com/in/sourav-das-654234248
 GitHub: github.com/Sourav07-D
